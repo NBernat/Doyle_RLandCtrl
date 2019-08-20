@@ -1,0 +1,35 @@
+These are instructions on setting up an environment to run CDS/RL simulations in the ipython notebook. 
+
+
+
+```
+conda create --name cdsrl
+source activate cdsrl
+```
+Double check that you have python >=3.5
+```
+conda install tensorflow
+conda install zlib
+conda install mpi
+conda install jupyter
+
+python -m ipykernel install --user --name cdsrl --display-name "Python (cdsrl)"
+```
+
+Clone Stable-Baselines Github repo and replace the line gym[atari,classic_control]>=0.10.9 in setup.py by this one: gym[classic_control]>=0.10.9
+
+Install Stable-Baselines from source, inside the folder
+
+```
+cd "stable-baselines directory" # change this to wherever you put the Stable-Baselines Github repo
+pip install -e .
+```
+
+Similarly, clone the spinningup Github repo, and install Stable-Baselines from source
+
+```
+cd "spinningup directory" # change this to wherever you put the spinningup Github repo
+pip install -e .
+```
+
+Now, you should be able to launch this notebook and set your kernel to cdsrl (or whatever you named your environment)

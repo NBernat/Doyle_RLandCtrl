@@ -1,0 +1,44 @@
+{
+    "ac_kwargs":	{
+        "action_space":	{
+            "Discrete(4)":	{
+                "dtype":	"int64",
+                "n":	4,
+                "np_random":	"<mtrand.RandomState object at 0x1c4e1a4e10>",
+                "shape":	[]
+            }
+        }
+    },
+    "actor_critic":	"mlp_actor_critic",
+    "env_fn":	"<function <lambda> at 0x1c4e25b510>",
+    "epochs":	50,
+    "exp_name":	"vpg_test",
+    "gamma":	0.99,
+    "lam":	0.97,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x1c44d45780>":	{
+            "epoch_dict":	{},
+            "exp_name":	"vpg_test",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/Users/nataliebernat/Documents/Github/Research/Doyle_RLandCtrl/RL_outputs/spinup_tests/vpg_test/",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/Users/nataliebernat/Documents/Github/Research/Doyle_RLandCtrl/RL_outputs/spinup_tests/vpg_test/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"vpg_test",
+        "output_dir":	"/Users/nataliebernat/Documents/Github/Research/Doyle_RLandCtrl/RL_outputs/spinup_tests/vpg_test/"
+    },
+    "max_ep_len":	1000,
+    "pi_lr":	0.0003,
+    "save_freq":	10,
+    "seed":	0,
+    "steps_per_epoch":	5000,
+    "train_v_iters":	80,
+    "vf_lr":	0.001
+}
