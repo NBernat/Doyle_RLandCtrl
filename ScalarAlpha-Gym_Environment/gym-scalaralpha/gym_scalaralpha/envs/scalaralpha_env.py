@@ -4,7 +4,7 @@ from gym.utils import seeding
 import numpy as np
 from os import path
 
-class CdsalphaEnv(gym.Env):
+class ScalaralphaEnv(gym.Env):
 	metadata = {
 		'render.modes' : ['human', 'rgb_array'],
 		'video.frames_per_second' : 30
