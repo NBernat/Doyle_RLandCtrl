@@ -1,0 +1,17 @@
+Experiment descriptions.txt
+
+Spinup_tests:
+Initial experiments to verify the functioning of spinup algorithms on standard openAI gym environments
+
+
+Cdsalpha_tests:
+Tests verifying the function of the custom gym environment CdsAlpha, as well as initial tests probing RL performance on CdsAlpha. Alpha is a parameter that renders the system uncontrollable at/near zero, but as it increases, renders the system more and more unstable. Various amounts of noise were tested along a sweep of the parameter alpha. 
+In this version of the environment, experiments are run on randomized initial states, and the stopping condition is a function of the state (these two properties were changed in the next version). 
+
+
+Finhoriz_tests:
+In the finite horizon tests, the CdsAlpha environment was edited to run for a fixed number of steps per run in order to make comparisons with SysID/Optimal Control more natural. Also, for all experiments that have noise, the starting state is zero.
+
+
+(Future: scalar_tests):
+These tests will probe RL performance on a 1D-state system, where alpha only affects stability. This is meant to show how stability/instability affects performance in the absence of controlability issues.

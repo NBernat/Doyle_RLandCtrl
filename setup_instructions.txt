@@ -33,3 +33,11 @@ pip install -e .
 ```
 
 Now, you should be able to launch this notebook and set your kernel to cdsrl (or whatever you named your environment)
+
+
+Finally, to use a custom gym environment, you need to install it according to the following instructions (and if you make changes to a custom gym environment, you need to install it again, just repeat the below instructions). More info on custom gym environments at https://medium.com/@apoddar573/making-your-own-custom-environment-in-gym-c3b65ff8cdaa 
+
+```
+cd "gym-foo directory"
+pip install -e .
+```
