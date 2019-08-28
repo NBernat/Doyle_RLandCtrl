@@ -10,7 +10,7 @@ class CdsalphaEnv(gym.Env):
 		'video.frames_per_second' : 30
 	}
 
-	def __init__(self, a=0, mu=0, sigma=0, reg=0.001, seed=None):
+	def __init__(self, a=0, mu=0, sigma=0, reg=0.001, horiz=5, seed=None):
 
 		self.A = np.array([[1+a, 0],[0,1]])
 		self.B = np.array([1,1])
@@ -26,7 +26,7 @@ class CdsalphaEnv(gym.Env):
 
 		self.start_zone = 2 # only used for no noise, see reset()
 		# self.fail_thresh = 75 using horizon_len instead of fail_thresh
-		self.horizon_len = 5
+		self.horizon_len = horiz
 		self.num_steps = None
 
 		self.viewer = None
