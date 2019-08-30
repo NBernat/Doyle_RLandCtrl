@@ -1,0 +1,49 @@
+{
+    "ac_kwargs":	{
+        "action_space":	{
+            "Box(1,)":	{
+                "bounded_above":	"[ True]",
+                "bounded_below":	"[ True]",
+                "dtype":	"float32",
+                "high":	"[100.]",
+                "low":	"[-100.]",
+                "np_random":	"<mtrand.RandomState object at 0x1c36ac2d38>",
+                "shape":	[
+                    1
+                ]
+            }
+        }
+    },
+    "actor_critic":	"mlp_actor_critic",
+    "env_fn":	"<function <lambda> at 0x1c3650cd08>",
+    "epochs":	100,
+    "exp_name":	"alpha0pt2_vpg_test",
+    "gamma":	0.99,
+    "lam":	0.97,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x1c36a3add8>":	{
+            "epoch_dict":	{},
+            "exp_name":	"alpha0pt2_vpg_test",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/Users/nataliebernat/Documents/Github/Research/Doyle_RLandCtrl/RL_outputs/normrew_tests/horiz5reg0e+00/whitenoise0pt4/seed1/alpha0pt2_vpg_test/",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/Users/nataliebernat/Documents/Github/Research/Doyle_RLandCtrl/RL_outputs/normrew_tests/horiz5reg0e+00/whitenoise0pt4/seed1/alpha0pt2_vpg_test/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"alpha0pt2_vpg_test",
+        "output_dir":	"/Users/nataliebernat/Documents/Github/Research/Doyle_RLandCtrl/RL_outputs/normrew_tests/horiz5reg0e+00/whitenoise0pt4/seed1/alpha0pt2_vpg_test/"
+    },
+    "max_ep_len":	1000,
+    "pi_lr":	0.0003,
+    "save_freq":	10,
+    "seed":	0,
+    "steps_per_epoch":	5000,
+    "train_v_iters":	80,
+    "vf_lr":	0.001
+}

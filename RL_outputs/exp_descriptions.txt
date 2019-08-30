@@ -12,7 +12,11 @@ In this version of the environment, experiments are run on randomized initial st
 Finhoriz_tests:
 	In the finite horizon tests, the CdsAlpha environment was edited to run for a fixed number of steps per run in order to make comparisons with SysID/Optimal Control more natural. Also, for all experiments that have noise, the starting state is zero.
 	We ran for a horizon length of 5. The scale of error is much smaller, since the trajectories are much shorter. I suspect that none of these would actually do well on long horizons, and that they are not getting sufficient signal out of the trajectories, because they seem to all converge very quickly, even in alpha=0 experiments; it seems like they all realize that doing nothing won't be penalized very heavily (would need to verify that the control input chosen is near zero), maybe because the regularization term is now dominating the reward.
-	We are currently running a small set of tests for a much lower regularization parameter to see if the trends look more similar to the un-capped horizon tests.
+	It's possible that the REG PARAMETER DEPENDS ON HORIZ LENGTH. In order to clarify whether optimal alpha depends on reg, and whether reg depends on horiz_len, we are running a sweep of alpha=[0.0, 0.1, 0.2, 0.4, 0.8, 1.0], horiz_len=[5,50], and reg=[1e0 thru 1e-5]. (See normrew tests for the results of this exploration.)
+
+Normrew_tests:
+	It became a nuisance to compare the performance of different horizon_len's, so I updated the env to normalize the reward by horiz_len. This should still show trends by relative weights of Q and reg when we change reg, but *should* be less annoying. 
+	Another nuisance (not yet addressed...) is that for large alpha, using a large fixed horizon sometimes allows the state to deviate from the defined state space (or at least, the reward goes to -inf and other metrics become NaN's). Still deciding how to address this.
 
 
 (Future: kout_tests):

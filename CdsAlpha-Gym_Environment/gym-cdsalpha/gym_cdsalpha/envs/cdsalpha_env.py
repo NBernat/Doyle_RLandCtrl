@@ -57,9 +57,10 @@ class CdsalphaEnv(gym.Env):
 			+ u*self.B \
 			+ self.noise()
 
-		# Squared error
-		costs = np.dot(self.state, self.state) \
-			+ self.reg*np.dot(u,u)
+		# Squared error, normed by horiz_len (for comparisons between horiz's)
+		costs = (np.dot(self.state, self.state) \
+			+ self.reg*np.dot(u,u)) \
+			* (1.0/self.horizon_len)
 
 		self.num_steps += 1
 
