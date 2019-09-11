@@ -25,7 +25,7 @@ class CdsalphaEnv(gym.Env):
 		self.max_u =100
 
 		self.start_zone = 2 # only used for no noise, see reset()
-		# self.fail_thresh = 75 using horizon_len instead of fail_thresh
+		self.fail_thresh = 1e5 #using horizon_len instead of fail_thresh
 		self.horizon_len = horiz
 		self.num_steps = None
 
@@ -71,15 +71,14 @@ class CdsalphaEnv(gym.Env):
 
 	def check(self):
 
-		# x1 = self.state[0]
-		# x2 = self.state[1]
+		x1 = self.state[0]
+		x2 = self.state[1]
 
-		# done = x1 < -self.fail_thresh \
-		# 	or x1 > self.fail_thresh \
-		# 	or x2 < -self.fail_thresh \
-		# 	or x2 > self.fail_thresh
-
-		done = self.num_steps >= self.horizon_len
+		done = x1 < -self.fail_thresh \
+			or x1 > self.fail_thresh \
+			or x2 < -self.fail_thresh \
+			or x2 > self.fail_thresh \
+			or self.num_steps >= self.horizon_len
 		done = bool(done)
 
 		return done
