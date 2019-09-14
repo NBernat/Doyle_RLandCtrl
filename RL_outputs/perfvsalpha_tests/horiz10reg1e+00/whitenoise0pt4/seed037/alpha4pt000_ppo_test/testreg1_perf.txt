@@ -1,0 +1,114 @@
+Using default action op.
+[32;1mLogging data to /tmp/experiments/1568313423/progress.txt[0m
+Episode 0 	 EpRet -31196020.434 	 EpLen 14
+Episode 1 	 EpRet -27427055.987 	 EpLen 18
+Episode 2 	 EpRet -51858879.162 	 EpLen 12
+Episode 3 	 EpRet -11055206.817 	 EpLen 11
+Episode 4 	 EpRet -260124227.213 	 EpLen 17
+Episode 5 	 EpRet -19034835.444 	 EpLen 14
+Episode 6 	 EpRet -108173194.155 	 EpLen 12
+Episode 7 	 EpRet -39572407.165 	 EpLen 17
+Episode 8 	 EpRet -31200562.743 	 EpLen 22
+Episode 9 	 EpRet -135375560.319 	 EpLen 20
+Episode 10 	 EpRet -229343674.972 	 EpLen 12
+Episode 11 	 EpRet -65633379.400 	 EpLen 14
+Episode 12 	 EpRet -32136289.208 	 EpLen 11
+Episode 13 	 EpRet -20307562.774 	 EpLen 11
+Episode 14 	 EpRet -258957988.250 	 EpLen 10
+Episode 15 	 EpRet -98477470.206 	 EpLen 13
+Episode 16 	 EpRet -90475439.733 	 EpLen 13
+Episode 17 	 EpRet -60695876.900 	 EpLen 20
+Episode 18 	 EpRet -112428857.953 	 EpLen 15
+Episode 19 	 EpRet -14847602.745 	 EpLen 9
+Episode 20 	 EpRet -117350797.455 	 EpLen 14
+Episode 21 	 EpRet -17990506.343 	 EpLen 12
+Episode 22 	 EpRet -18658208.660 	 EpLen 20
+Episode 23 	 EpRet -236216785.246 	 EpLen 13
+Episode 24 	 EpRet -155000164.731 	 EpLen 13
+Episode 25 	 EpRet -11603399.141 	 EpLen 22
+Episode 26 	 EpRet -255777252.819 	 EpLen 11
+Episode 27 	 EpRet -22643285.008 	 EpLen 11
+Episode 28 	 EpRet -46116960.618 	 EpLen 11
+Episode 29 	 EpRet -91891821.213 	 EpLen 17
+Episode 30 	 EpRet -117844179.587 	 EpLen 15
+Episode 31 	 EpRet -47385381.612 	 EpLen 12
+Episode 32 	 EpRet -199350536.472 	 EpLen 16
+Episode 33 	 EpRet -112109374.266 	 EpLen 11
+Episode 34 	 EpRet -65388953.820 	 EpLen 11
+Episode 35 	 EpRet -13020255.707 	 EpLen 10
+Episode 36 	 EpRet -73492176.315 	 EpLen 17
+Episode 37 	 EpRet -150913919.954 	 EpLen 11
+Episode 38 	 EpRet -152697204.882 	 EpLen 12
+Episode 39 	 EpRet -58229159.490 	 EpLen 14
+Episode 40 	 EpRet -41578829.399 	 EpLen 12
+Episode 41 	 EpRet -32194924.979 	 EpLen 12
+Episode 42 	 EpRet -79119255.604 	 EpLen 11
+Episode 43 	 EpRet -11117069.166 	 EpLen 10
+Episode 44 	 EpRet -22764527.034 	 EpLen 11
+Episode 45 	 EpRet -81890853.259 	 EpLen 15
+Episode 46 	 EpRet -33027420.009 	 EpLen 11
+Episode 47 	 EpRet -18647558.618 	 EpLen 9
+Episode 48 	 EpRet -38543825.722 	 EpLen 10
+Episode 49 	 EpRet -35192366.463 	 EpLen 15
+Episode 50 	 EpRet -167521873.522 	 EpLen 10
+Episode 51 	 EpRet -141726541.109 	 EpLen 10
+Episode 52 	 EpRet -15925072.982 	 EpLen 9
+Episode 53 	 EpRet -32859991.410 	 EpLen 9
+Episode 54 	 EpRet -22244614.419 	 EpLen 18
+Episode 55 	 EpRet -30632210.872 	 EpLen 13
+Episode 56 	 EpRet -13363746.491 	 EpLen 10
+Episode 57 	 EpRet -56339384.928 	 EpLen 15
+Episode 58 	 EpRet -94499443.083 	 EpLen 11
+Episode 59 	 EpRet -131135028.465 	 EpLen 14
+Episode 60 	 EpRet -107659000.583 	 EpLen 12
+Episode 61 	 EpRet -213809640.847 	 EpLen 14
+Episode 62 	 EpRet -12854086.787 	 EpLen 9
+Episode 63 	 EpRet -17992241.098 	 EpLen 12
+Episode 64 	 EpRet -14267149.338 	 EpLen 10
+Episode 65 	 EpRet -117659933.172 	 EpLen 12
+Episode 66 	 EpRet -44802440.589 	 EpLen 10
+Episode 67 	 EpRet -180267404.892 	 EpLen 9
+Episode 68 	 EpRet -52603010.146 	 EpLen 13
+Episode 69 	 EpRet -78480068.865 	 EpLen 10
+Episode 70 	 EpRet -25251089.462 	 EpLen 11
+Episode 71 	 EpRet -29750563.210 	 EpLen 13
+Episode 72 	 EpRet -95770485.787 	 EpLen 12
+Episode 73 	 EpRet -111438206.286 	 EpLen 12
+Episode 74 	 EpRet -14679984.684 	 EpLen 12
+Episode 75 	 EpRet -59982613.848 	 EpLen 23
+Episode 76 	 EpRet -222769285.908 	 EpLen 14
+Episode 77 	 EpRet -24892365.072 	 EpLen 10
+Episode 78 	 EpRet -111972378.381 	 EpLen 10
+Episode 79 	 EpRet -204540260.748 	 EpLen 15
+Episode 80 	 EpRet -71428536.135 	 EpLen 13
+Episode 81 	 EpRet -201629562.430 	 EpLen 10
+Episode 82 	 EpRet -74498657.741 	 EpLen 10
+Episode 83 	 EpRet -139066188.739 	 EpLen 30
+Episode 84 	 EpRet -111275261.045 	 EpLen 12
+Episode 85 	 EpRet -45026374.454 	 EpLen 11
+Episode 86 	 EpRet -100161213.734 	 EpLen 14
+Episode 87 	 EpRet -20787521.319 	 EpLen 19
+Episode 88 	 EpRet -206310037.093 	 EpLen 14
+Episode 89 	 EpRet -194406035.428 	 EpLen 12
+Episode 90 	 EpRet -22406584.343 	 EpLen 10
+Episode 91 	 EpRet -21386547.007 	 EpLen 19
+Episode 92 	 EpRet -72287573.652 	 EpLen 14
+Episode 93 	 EpRet -202182874.402 	 EpLen 10
+Episode 94 	 EpRet -22278442.521 	 EpLen 13
+Episode 95 	 EpRet -36230776.072 	 EpLen 14
+Episode 96 	 EpRet -189653399.720 	 EpLen 11
+Episode 97 	 EpRet -192523143.722 	 EpLen 11
+Episode 98 	 EpRet -218589111.917 	 EpLen 10
+Episode 99 	 EpRet -52893024.672 	 EpLen 11
+-------------------------------------
+|    AverageEpRet |        -8.7e+07 |
+|        StdEpRet |        7.09e+07 |
+|        MaxEpRet |       -1.11e+07 |
+|        MinEpRet |        -2.6e+08 |
+|           EpLen |              13 |
+-------------------------------------
+None
+None
+None
+None
+[range(0, 7)]

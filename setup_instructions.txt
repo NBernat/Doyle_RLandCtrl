@@ -25,7 +25,7 @@ cd "stable-baselines directory" # change this to wherever you put the Stable-Bas
 pip install -e .
 ```
 
-Similarly, clone the spinningup Github repo, and install Stable-Baselines from source
+Similarly, clone the spinningup Github repo, and install Stable-Baselines from source (check https://spinningup.openai.com/en/latest/user/installation.html for non-macOS or other issues)
 
 ```
 cd "spinningup directory" # change this to wherever you put the spinningup Github repo
